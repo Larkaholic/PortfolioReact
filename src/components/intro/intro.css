@@ -1,0 +1,78 @@
+#intro {
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    top: -2rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+    filter: drop-shadow(1px 5px 4px #fc5a5a73);
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.introContent .hello,
+.introContent .introText,
+.introContent .introName,
+.introContent .introPara {
+    color: white;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+
+.introContent .introName {
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.39);
+}
+
+.introContent .introPara {
+    font-size: medium;
+    font-weight: 200;
+}
+
+.introContent .btn {
+    background-color: white;
+    margin: 1 rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .introContent {
+        font-size: 2rem;
+    }
+
+    .introContent .btn {
+        padding: 0.5rem 1.5rem;
+    }
+    .introContent .hello {
+        font-size: 1.5rem;
+    }
+    .introContent .introName {
+        font-size: 2.5rem;
+    }
+    
+}
