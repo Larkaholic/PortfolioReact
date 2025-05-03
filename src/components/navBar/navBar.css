@@ -16,9 +16,21 @@
     height: 100px;
 }
 
-.desktopMenuListItem {
+.desktopMenu {
+    display: flex;
     gap: 2rem;
+    align-items: center;
+}
+
+.desktopMenuListItem {
     font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
+    color: white;
+}
+
+.desktopMenuListItem:hover {
+    color: #000000;
+    padding-bottom: 0.5rem;
+    border-bottom: #000000 solid 2px;
 }
