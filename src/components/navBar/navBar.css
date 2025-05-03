@@ -1,11 +1,24 @@
 .navbar{
-    width: 100%;
+    width: 100vw;
+    max-width: 75rem;
     height: 5rem;
+    margin: 0 auto;
     padding: 10px;
-    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    margin-top: 5px;
 }
 
 .navbar-logo{
-    width: 100%;
-    height: 5rem;
+    object-fit: cover;
+    height: 100px;
+}
+
+.desktopMenuListItem {
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
 }
