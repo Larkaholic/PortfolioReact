@@ -1,35 +1,39 @@
 import React from 'react';
 import './projects.css';
+import artisthub from '../../assets/artisthub.png';
+import cit18 from '../../assets/cit18.jpg';
+import spa from '../../assets/spa.png';
+import github from '../../assets/github.svg';
 
 const Projects = () => {
     const projects = [
         {
-            title: "Project 1",
-            description: "Description of project 1",
-            github: "https://github.com/yourusername/project1",
-            tech: ["React", "Node.js", "MongoDB"],
-            image: "project1.jpg" // Add your image path here
+            title: "Artist Hub",
+            description: "Webpage for artists and artisans",
+            github: "https://larkaholic.github.io/ArtistHub-BaguioCity/",
+            tech: ["HTML", "Tailwind", "Firebase"],
+            image: artisthub
         },
         {
-            title: "Project 2",
-            description: "Description of project 2",
-            github: "https://github.com/yourusername/project2",
+            title: "Movie Vault",
+            description: "Blogging site for movies",
+            github: "https://github.com/Larkaholic/CIT18FinalProject",
             tech: ["PHP", "Laravel", "MySQL"],
-            image: "project2.jpg"
+            image: cit18
         },
         {
-            title: "Project 3",
-            description: "Description of project 3",
-            github: "https://github.com/yourusername/project3",
+            title: "UC Insight Full Therapy",
+            description: "Booking system using PHP and MySQL",
+            github: "https://github.com/Larkaholic/portfolioCIT18",
             tech: ["React", "Firebase", "Tailwind"],
-            image: "project3.jpg"
+            image: spa
         },
         {
-            title: "Project 4",
-            description: "Description of project 4",
-            github: "https://github.com/yourusername/project4",
+            title: "Github",
+            description: "Github Profile",
+            github: "https://github.com/Larkaholic",
             tech: ["HTML", "CSS", "JavaScript"],
-            image: "project4.jpg"
+            image: github
         }
     ];
 
@@ -45,7 +49,7 @@ const Projects = () => {
                        key={index}>
                         <div className="projectImageContainer">
                             <img 
-                                src={require(`../../assets/projects/${project.image}`)} 
+                                src={project.image}
                                 alt={project.title} 
                                 className="projectImage"
                             />
