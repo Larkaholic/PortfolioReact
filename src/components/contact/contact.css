@@ -1,0 +1,81 @@
+#contact {
+    padding: 6rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    min-height: 50vh;
+}
+
+.contactTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.contactContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 600px;
+    width: 100%;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.contactLink {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+    transition: all 0.3s ease;
+}
+
+.contactLink:hover {
+    background: rgb(60, 60, 60);
+    transform: translateY(-2px);
+}
+
+.contactIcon {
+    font-size: 1.5rem;
+}
+
+.cvButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: crimson;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.cvButton:hover {
+    background: rgb(220, 20, 60);
+    transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+    .contactTitle {
+        font-size: 2rem;
+    }
+    
+    .contactLink {
+        font-size: 1rem;
+    }
+}
