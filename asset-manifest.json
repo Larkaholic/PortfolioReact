@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PortfolioReact/static/css/main.bf2b53ef.css",
+    "main.js": "/PortfolioReact/static/js/main.821a4b31.js",
+    "static/media/nobg-copy.png": "/PortfolioReact/static/media/nobg-copy.2b01c03cbad1eab90dfb.png",
+    "static/media/artisthub.png": "/PortfolioReact/static/media/artisthub.b1c75a8bd8dada883d5a.png",
+    "static/media/logo.png": "/PortfolioReact/static/media/logo.6acaed42675b94479141.png",
+    "static/media/coding.png": "/PortfolioReact/static/media/coding.ddf5417b9e90b957b838.png",
+    "static/media/app-development.png": "/PortfolioReact/static/media/app-development.89a4bac80c6fd215aa20.png",
+    "static/media/ux-design.png": "/PortfolioReact/static/media/ux-design.0b0d1c2cf96e81c9725d.png",
+    "static/media/cit18.jpg": "/PortfolioReact/static/media/cit18.fe8e5f779d57306c92ad.jpg",
+    "static/media/github.svg": "/PortfolioReact/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
+    "index.html": "/PortfolioReact/index.html",
+    "main.bf2b53ef.css.map": "/PortfolioReact/static/css/main.bf2b53ef.css.map",
+    "main.821a4b31.js.map": "/PortfolioReact/static/js/main.821a4b31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf2b53ef.css",
+    "static/js/main.821a4b31.js"
+  ]
+}
