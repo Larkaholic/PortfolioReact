@@ -8,10 +8,34 @@ const NavBar = () => {
     <nav className="navbar">
       <img src={logo} alt="Logo" className="navbar-logo" />
       <div className="desktopMenu">
-        <Link className="desktopMenuListItem">Home</Link>
-        <Link className="desktopMenuListItem">About</Link>
-        <Link className="desktopMenuListItem">Portfolio</Link>
-        <Link className="desktopMenuListItem">Contact</Link>
+        <Link 
+          to="intro"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="desktopMenuListItem"
+        >Home</Link>
+        <Link 
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="desktopMenuListItem"
+        >About</Link>
+        <Link 
+          to="projects"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="desktopMenuListItem"
+        >Portfolio</Link>
+        <Link 
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="desktopMenuListItem"
+        >Contact</Link>
       </div>
     </nav>
   );
