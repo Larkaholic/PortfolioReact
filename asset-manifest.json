@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioReact/static/css/main.15866967.css",
-    "main.js": "/PortfolioReact/static/js/main.94c88ff9.js",
+    "main.css": "/PortfolioReact/static/css/main.1a43aa63.css",
+    "main.js": "/PortfolioReact/static/js/main.d094c671.js",
     "static/media/nobg-copy.png": "/PortfolioReact/static/media/nobg-copy.2b01c03cbad1eab90dfb.png",
     "static/media/artisthub.png": "/PortfolioReact/static/media/artisthub.b1c75a8bd8dada883d5a.png",
     "static/media/logo.png": "/PortfolioReact/static/media/logo.6acaed42675b94479141.png",
@@ -11,11 +11,11 @@
     "static/media/cit18.jpg": "/PortfolioReact/static/media/cit18.fe8e5f779d57306c92ad.jpg",
     "static/media/github.svg": "/PortfolioReact/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/PortfolioReact/index.html",
-    "main.15866967.css.map": "/PortfolioReact/static/css/main.15866967.css.map",
-    "main.94c88ff9.js.map": "/PortfolioReact/static/js/main.94c88ff9.js.map"
+    "main.1a43aa63.css.map": "/PortfolioReact/static/css/main.1a43aa63.css.map",
+    "main.d094c671.js.map": "/PortfolioReact/static/js/main.d094c671.js.map"
   },
   "entrypoints": [
-    "static/css/main.15866967.css",
-    "static/js/main.94c88ff9.js"
+    "static/css/main.1a43aa63.css",
+    "static/js/main.d094c671.js"
   ]
 }
