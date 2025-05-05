@@ -1,0 +1,182 @@
+#about {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.aboutTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    margin-top: -5rem;
+}
+
+.aboutDesc {
+    font-weight: 300;
+    font-size: 1.1rem;
+    max-width: 50rem;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.aboutBars {
+    flex: 1;
+    margin: 0;
+    width: 100%;
+    max-width: 50%;
+    text-align: left;
+}
+
+.aboutBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.aboutBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.aboutBarText > h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.aboutBarText > p {
+    font-size: 0.9rem;
+    color: rgb(200, 200, 200);
+    margin-top: 0.25rem;
+}
+
+.skillsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.coreSkillsSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.skillsTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin: 2rem 0;
+}
+
+.coreSkills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+}
+
+.skillCard {
+    background: rgb(50, 50, 50);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.skillCard h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.skillCard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.skillCard ul li {
+    color: rgb(200, 200, 200);
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.skillCard ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutTitle {
+        font-size: 2.5rem;
+    }
+    
+    .aboutBar {
+        margin: 1rem 0;
+        padding: 1rem 1.5rem;
+    }
+
+    .aboutBarImg {
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-right: 1rem;
+    }
+
+    .aboutBarText > h2 {
+        font-size: 1.2rem;
+    }
+
+    .skillsContainer {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .aboutBars, .coreSkillsSection {
+        max-width: 100%;
+    }
+
+    .coreSkills {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .skillCard {
+        width: 100%;
+        min-height: auto;
+        height: auto;
+        padding: 1.5rem;
+    }
+    
+    .skillsTitle {
+        font-size: 1.8rem;
+    }
+}
