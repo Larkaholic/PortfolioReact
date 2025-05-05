@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact.css';
-import { FaGithub, FaEnvelope, FaLinkedin, FaFileDownload } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaLinkedin, FaFileDownload, FaGlobe } from 'react-icons/fa';
 
 const Contact = () => {
     return (
@@ -16,9 +16,9 @@ const Contact = () => {
                         <FaGithub className="contactIcon" />
                         <span>GitHub</span>
                     </a>
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="contactLink">
-                        <FaLinkedin className="contactIcon" />
-                        <span>LinkedIn</span>
+                    <a href="https://larkaholic.github.io/ArtistHub-BaguioCity/" target="_blank" rel="noopener noreferrer" className="contactLink">
+                        <FaGlobe className="contactIcon" />
+                        <span>ArtistHub</span>
                     </a>
                 </div>
                 <a href="/path-to-your-cv.pdf" download className="cvButton">
