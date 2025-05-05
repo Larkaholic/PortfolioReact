@@ -1,5 +1,9 @@
+.abouts {
+    background-color: #111;
+}
+
 #about {
-    background-color: black;
+    background-color: #111;
     overflow: hidden;
     width: 100vw;
     max-width: 75rem;

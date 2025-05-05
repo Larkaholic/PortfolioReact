@@ -6,7 +6,7 @@ import AppDesign from '../../assets/app-development.png';
 
 const About = () => {
     return (
-        <section id="about">
+        <section id="about" className="abouts">
             <span className="aboutTitle">What I do</span>
             <span className="aboutDesc">
                 I am a student web developer with a focus on full-stack development. 
