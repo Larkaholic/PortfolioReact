@@ -44,6 +44,7 @@ const About = () => {
                             <h2>Frontend</h2>
                             <ul>
                                 <li>HTML</li>
+                                <li>React</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
                                 <li>Tailwind CSS</li>
