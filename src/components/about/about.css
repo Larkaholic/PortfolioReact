@@ -1,12 +1,9 @@
-.abouts {
-    background-color: #111;
-}
+
 
 #about {
     background-color: #111;
     overflow: hidden;
     width: 100vw;
-    max-width: 75rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
